@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Application</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="card">
+    <div class="search">
+      <input id="myinput" type="text" placeholder="enter city name" spellcheck="false" />
+      <button id="mybtn"><img src="images/search.png" alt="search" /></button>
+    </div>
+    <div class="error">
+      <img src="images/no-results.png" alt="not found!!!">
+      <p>Invalid city name!!!</p>
+    </div>
+    <div class="weather">
+      <img class="weather-icon" src="images/rain.png" alt="condition">
+      <p class="description">Description</p>
+      <h1 class="temp">21°C</h1>
+      <h2 class="city">New York</h2>
+      <div class="details">
+        <div class="col">
+          <img src="images/humidity.png">
+          <div>
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="images/wind.png">
+          <div>
+            <p class="wind">40km/h%</p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+
+
+</html>
